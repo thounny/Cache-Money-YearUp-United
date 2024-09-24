@@ -38,6 +38,13 @@ The `ls` command is used to list the contents of a directory.
   ```bash
   ls
   ```
+  **Output:**
+  ```
+  document1.txt
+  photo.jpg
+  script.sh
+  my_folder
+  ```
 
 - **Long Format with Hidden Files**: `ls -la`
   - `-l` shows more details (permissions, file size, and modification time).
@@ -51,6 +58,17 @@ The `ls` command is used to list the contents of a directory.
   **Example**:
   ```bash
   ls -la
+  ```
+  **Output:**
+  ```
+  total 32
+  drwxr-xr-x  3 user group 4096 Sep 24 12:00 .
+  drwxr-xr-x  4 user group 4096 Sep 24 12:00 ..
+  -rw-r--r--  1 user group   20 Sep 24 12:00 .hiddenfile
+  -rw-r--r--  1 user group   42 Sep 24 12:00 document1.txt
+  -rw-r--r--  1 user group   60 Sep 24 12:00 photo.jpg
+  -rwxr-xr-x  1 user group   80 Sep 24 12:00 script.sh
+  drwxr-xr-x  2 user group 4096 Sep 24 12:00 my_folder
   ```
 
 ---
@@ -244,8 +262,13 @@ The asterisk `*` is used as a **wildcard** that matches any pattern in filenames
   ```bash
   ls *
   ```
-
-  This lists all files and directories in the current folder, matching any name.
+  **Output:**
+  ```
+  document1.txt
+  photo.jpg
+  script.sh
+  my_folder
+  ```
 
 ---
 

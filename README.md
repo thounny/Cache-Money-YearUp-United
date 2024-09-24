@@ -58,7 +58,7 @@ This repository will continue to grow as we progress through the program and lea
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/yearup-united-frontend-resources.git
+   git clone https://github.com/thounny/Cache-Money-YearUp-United.git
    ```
 
 2. **Browse the topics**: Each topic will have its own folder with detailed Markdown files, examples, and code snippets.

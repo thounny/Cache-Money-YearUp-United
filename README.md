@@ -95,4 +95,3 @@ Frontend Development Student | Year Up United
 ---
 
 Let's keep pushing each other to grow, share, and succeed in our frontend development careers!
-```

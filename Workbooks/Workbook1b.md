@@ -1,7 +1,3 @@
-Here’s an updated version of your notes with additional code examples:
-
----
-
 # HTML Basics:
 
 - **HTML (Hypertext Markup Language)**: The core language for creating web pages, interpreted by browsers to structure content visually.

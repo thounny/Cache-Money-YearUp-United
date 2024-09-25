@@ -24,23 +24,27 @@ This repository aims to:
 Some of the key areas we plan to cover in this repository include:
 
 1. **HTML & CSS**
+
    - Semantic HTML
    - CSS Flexbox and Grid layouts
    - Responsive design using media queries
 
 2. **JavaScript**
+
    - ES6+ features (e.g., `let`, `const`, arrow functions)
    - DOM manipulation
    - Working with APIs (Fetch/Axios)
    - Basic JavaScript programming concepts
 
 3. **Bootstrap**
+
    - Introduction to Bootstrap
    - Creating responsive layouts using Bootstrap’s grid system
    - Bootstrap components (e.g., navbars, buttons, cards)
    - Customizing Bootstrap with your own styles
 
 4. **Version Control & GitHub**
+
    - Basic Git commands
    - Branching and merging
    - Resolving merge conflicts
@@ -57,6 +61,7 @@ This repository will continue to grow as we progress through the program and lea
 ## How to Use This Repo
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/thounny/Cache-Money-YearUp-United.git
    ```
@@ -88,6 +93,8 @@ This project is open-source and can be freely used for educational purposes.
 ---
 
 ## Author
+
+![logo](https://web.archive.org/web/20091027053343/http://geocities.com/animecap/index_dwn.gif)
 
 **Thounny Keo**  
 Frontend Development Student | Year Up United

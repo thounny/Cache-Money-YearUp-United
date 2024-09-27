@@ -205,8 +205,12 @@ Here’s the complete HTML code for your registration form, including all the co
 - **`registration`**: A custom class for the registration form container that defines specific styles such as background color, width, margin, padding, and border-radius.
 ---
 
+## Code Sandbox
+[Code Sandbox](https://2mcw56.csb.app/).
+
 ## Conclusion
 
 By using Bootstrap, you can streamline the process of building responsive and visually appealing websites. This introduction provided an overview of how to utilize Bootstrap's classes to create a registration form effectively. As you continue to learn, you'll find that Bootstrap can significantly enhance your web development skills and allow you to create more complex layouts with ease.
 
 For more in-depth information, detailed examples, and additional components, be sure to check out the official [Bootstrap Documentation](https://getbootstrap.com/docs/). The documentation is a valuable resource that covers everything from layout and components to utilities and customization options, helping you make the most out of this powerful framework.
+

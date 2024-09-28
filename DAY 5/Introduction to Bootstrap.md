@@ -206,7 +206,7 @@ Here’s the complete HTML code for your registration form, including all the co
 ---
 
 ## Final Code
-[Code Sanbox](https://codesandbox.io/p/sandbox/2mcw56 "@embed") 
+[Code Sandbox](https://codesandbox.io/p/sandbox/2mcw56 "@embed") 
 
 ## Conclusion
 

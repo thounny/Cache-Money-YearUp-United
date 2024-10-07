@@ -2,6 +2,77 @@
 
 ---
 
+# **Table of Contents**
+
+- [**Module 1: Introduction to JavaScript**](#module-1-introduction-to-javascript)
+  - [Section 1-1: Thinking About Programming](#section-1-1-thinking-about-programming)
+    - [Programming](#programming)
+  - [Section 1-2: Learning to Be Precise](#section-1-2-learning-to-be-precise)
+    - [Learning to Be Precise](#learning-to-be-precise)
+    - [Expanded Command Vocabulary](#expanded-command-vocabulary)
+  - [Section 1-3: Dealing with Ambiguity](#section-1-3-dealing-with-ambiguity)
+    - [Dealing with Ambiguity](#dealing-with-ambiguity)
+    - [Trying to Be Exact](#trying-to-be-exact)
+    - [Complex Problems](#complex-problems)
+  - [Section 1-4: JavaScript Basics](#section-1-4-javascript-basics)
+    - [JavaScript vs ECMAScript](#javascript-vs-ecmascript)
+    - [Using Semicolons to Separate Statements](#using-semicolons-to-separate-statements)
+    - [Declaring Variables](#declaring-variables)
+    - [Storing Values in a Variable](#storing-values-in-a-variable)
+    - [Using `console.log()` to Display a Message](#using-consolelog-to-display-a-message)
+    - [Comments](#comments)
+    - [Primitive Types](#primitive-types)
+    - [Exercises](#exercises)
+    - [Getting Visual Studio Code Ready](#getting-visual-studio-code-ready)
+    - [Installing Extensions](#installing-extensions)
+  
+- [**Module 2: Working with Numbers**](#module-2-working-with-numbers)
+  - [Section 2-1: Building Expressions](#section-2-1-building-expressions)
+    - [Expressions](#expressions)
+    - [Arithmetic Operators](#arithmetic-operators)
+    - [Uninitialized Variables](#uninitialized-variables)
+    - [The `Math` Object](#the-math-object)
+    - [Pre/Post Increment/Decrement](#prepost-incrementdecrement)
+  - [Section 2-2: Parsing Strings into Numbers](#section-2-2-parsing-strings-into-numbers)
+    - [Using `parseInt()` and `parseFloat()`](#using-parseint-and-parsefloat)
+    - [Using `Number()`](#using-number)
+
+- [**Module 3: Programming with Conditionals**](#module-3-programming-with-conditionals)
+  - [Section 3-1: Making Decisions with `if/else`](#section-3-1-making-decisions-with-ifelse)
+    - [Making Decisions using the `if` Statement](#making-decisions-using-the-if-statement)
+    - [Comparison Operators](#comparison-operators)
+    - [Using the `if / else` Statement](#using-the-if--else-statement)
+    - [Exercises Using `if / else / if` Statements](#exercises-using-if--else--if-statements)
+    - [Making AND / OR Decisions](#making-and--or-decisions)
+    - [`var` vs `let`](#var-vs-let)
+  - [Section 3-2: Making Decisions with a `switch`](#section-3-2-making-decisions-with-a-switch)
+    - [The `switch` Statement](#the-switch-statement)
+    - [Exercises Using the `switch` Statement](#exercises-using-the-switch-statement)
+
+- [**Module 4: JavaScript in the Browser**](#module-4-javascript-in-the-browser)
+  - [Section 4-1: Building HTML Pages that Use JavaScript](#section-4-1-building-html-pages-that-use-javascript)
+    - [Console Scripts vs Browser-Based Apps](#console-scripts-vs-browser-based-apps)
+    - [The `<script>` Element](#the-script-element)
+    - [JavaScript Functions](#javascript-functions)
+    - [External Scripts](#external-scripts)
+    - [Organizing Scripts](#organizing-scripts)
+  - [Section 4-2: Interacting with Page Elements](#section-4-2-interacting-with-page-elements)
+    - [Accessing Elements on the Page using `getElementById()`](#accessing-elements-on-the-page-using-getelementbyid)
+    - [Working with Contents of an Element using `innerHTML`](#working-with-contents-of-an-element-using-innerhtml)
+    - [Working with `<input>` Elements](#working-with-input-elements)
+    - [Combining Finding the HTML Element and Getting the Value](#combining-finding-the-html-element-and-getting-the-value)
+  - [Section 4-3: Event Handling](#section-4-3-event-handling)
+    - [Events](#events)
+    - [Event Attributes](#event-attributes)
+    - [Coding Event Logic in an HTML Attribute](#coding-event-logic-in-an-html-attribute)
+    - [Assigning Event Handlers When the Window Finishes Loading](#assigning-event-handlers-when-the-window-finishes-loading)
+    - [Exercises](#exercises-1)
+    - [Adding a Little Error Handling](#adding-a-little-error-handling)
+    - [Mini-Project](#mini-project)
+
+
+---
+
 ## **Module 1: Introduction to JavaScript**
 
 ### **Section 1-1: Thinking About Programming**

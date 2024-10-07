@@ -1,4 +1,3 @@
-
 # **Beginner's Guide to Programming Fundamentals**
 
 ---
@@ -218,4 +217,53 @@ console.log(c);  // Logs the value of c (8) to the console.
 
 3. **Test Your Code Frequently:**
    - Use `console.log()` to debug and test small pieces of code before building larger projects.
+
+---
+
+## **11. Running JavaScript Inside HTML with the `<script>` Tag**
+
+To use JavaScript inside an HTML file, we can place it within the `<script>` tag. Here's an example of how to log information to the console using HTML and JavaScript:
+
+### **Example HTML File with JavaScript:**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console Log Example</title>
+</head>
+<body>
+
+    <h1>JavaScript Inside HTML</h1>
+
+    <script>
+        // JavaScript code inside the script tag
+        let a = 3;
+        let b = 5;
+        let c = a + b;
+
+        // Logs the result (8) to the browser console
+        console.log(c);
+    </script>
+
+</body>
+</html>
+```
+
+### **Explanation:**
+
+1. **HTML Structure**  
+   - This HTML document has a basic structure with a title and heading (`<h1>`).
+
+2. **JavaScript in the `<script>` Tag**  
+   - The JavaScript code is placed within the `<script>` tag. It can manipulate the webpage or, in this case, log values to the browser console.
+   - In the example, `console.log(c)` outputs `8` to the browser console when the page is loaded.
+
+### **How to View the Output:**
+- Open the HTML file in a browser (e.g., Chrome).
+- Right-click on the page and select "Inspect" or press `Ctrl+Shift+I` to open the Developer Tools.
+- Go to the "Console" tab to see the output.
 

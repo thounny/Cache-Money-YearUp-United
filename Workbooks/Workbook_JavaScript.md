@@ -1,4 +1,4 @@
-# **JavaScript Workbook Notes 
+# JavaScript Workbook Notes 
 
 ---
 

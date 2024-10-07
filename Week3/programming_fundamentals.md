@@ -124,10 +124,60 @@ console.log(c);  // Logs the value of c (8) to the console.
    ```
    - **What is it?**  
      This line passes the value of `c` into the `log()` function of the `console` object. The output `8` is displayed in the terminal or browser console.
-  
+
 ---
 
-## **7. Variables and Expressions**
+## **7. Concatenation in JavaScript**
+
+JavaScript allows us to "chain together" strings of text (or numbers) using the **concatenation operator** (`+`).
+
+### **Code Example:**
+```javascript
+//F5 fn+5 RUN/PLAY
+
+let firstName = "Kevin"; // JavaScript's fundamental/primitive data types
+let greeting = "Hello";  // Include numbers and strings of characters/letters
+
+// Concatenate operator = "chain together" like a train.
+let message = greeting + firstName;
+
+console.log(message); // Outputs: "HelloKevin"
+```
+
+### **Explanation:**
+
+1. **Primitive Data Types**
+   - JavaScript supports basic types like **strings** (sequences of characters) and **numbers** (integers, floats).
+   - In this example, `firstName` and `greeting` are both **string** variables.
+
+   ```javascript
+   let firstName = "Kevin";  // String variable
+   let greeting = "Hello";   // Another string variable
+   ```
+
+2. **Concatenation Operator**  
+   - The **`+` operator** can be used to combine (concatenate) strings into one continuous piece of text. 
+   - The variable `message` combines the content of `greeting` ("Hello") and `firstName` ("Kevin") to create "HelloKevin".
+
+   ```javascript
+   let message = greeting + firstName;
+   ```
+
+3. **Logging Output to Console**
+   - We use `console.log(message)` to print the value of `message` to the console, which in this case would output "HelloKevin".
+   - If you want a space between the words, you can modify the concatenation as follows:
+
+   ```javascript
+   let message = greeting + " " + firstName;  // Adds a space between "Hello" and "Kevin"
+   console.log(message);  // Outputs: "Hello Kevin"
+   ```
+
+### **F5 fn+5 RUN/PLAY**
+- This line is a hint to use the keyboard shortcut **F5** or **fn+5** in some environments to **run/play** the JavaScript code if you're using an IDE or code editor.
+
+---
+
+## **8. Variables and Expressions**
 
 ### **Statements and Expressions**
 - **Statements:**  
@@ -136,7 +186,7 @@ console.log(c);  // Logs the value of c (8) to the console.
   ```javascript
   let x = 10;
   ```
-  
+
 - **Expressions:**  
   An expression is a combination of variables and operators that produces a value.  
   Example:  
@@ -160,7 +210,7 @@ console.log(c);  // Logs the value of c (8) to the console.
 
 ---
 
-## **8. Variables as Identifiers**
+## **9. Variables as Identifiers**
 
 ### **What Are Variables?**
 - **Definition:**  
@@ -182,7 +232,7 @@ console.log(c);  // Logs the value of c (8) to the console.
 
 ---
 
-## **9. Console and Logging**
+## **10. Console and Logging**
 
 ### **`console.log()`**
 - **What is it?**  
@@ -197,73 +247,3 @@ console.log(c);  // Logs the value of c (8) to the console.
 - **Breakdown:**
   - **console:** The object that interacts with the terminal or browser console.
   - **log():** A method (function) that prints the value you pass to it.
-
----
-
-## **10. Writing Efficient Code**
-
-### **Tips for Writing More Efficient Code:**
-1. **Use `let` and `const` Appropriately:**
-   - `let` is for variables that can change.
-   - `const` is for values that should not be changed.
-   
-2. **Break Code into Small, Reusable Functions:**
-   - Example:
-     ```javascript
-     function add(a, b) {
-       return a + b;
-     }
-     ```
-
-3. **Test Your Code Frequently:**
-   - Use `console.log()` to debug and test small pieces of code before building larger projects.
-
----
-
-## **11. Running JavaScript Inside HTML with the `<script>` Tag**
-
-To use JavaScript inside an HTML file, we can place it within the `<script>` tag. Here's an example of how to log information to the console using HTML and JavaScript:
-
-### **Example HTML File with JavaScript:**
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Console Log Example</title>
-</head>
-<body>
-
-    <h1>JavaScript Inside HTML</h1>
-
-    <script>
-        // JavaScript code inside the script tag
-        let a = 3;
-        let b = 5;
-        let c = a + b;
-
-        // Logs the result (8) to the browser console
-        console.log(c);
-    </script>
-
-</body>
-</html>
-```
-
-### **Explanation:**
-
-1. **HTML Structure**  
-   - This HTML document has a basic structure with a title and heading (`<h1>`).
-
-2. **JavaScript in the `<script>` Tag**  
-   - The JavaScript code is placed within the `<script>` tag. It can manipulate the webpage or, in this case, log values to the browser console.
-   - In the example, `console.log(c)` outputs `8` to the browser console when the page is loaded.
-
-### **How to View the Output:**
-- Open the HTML file in a browser (e.g., Chrome).
-- Right-click on the page and select "Inspect" or press `Ctrl+Shift+I` to open the Developer Tools.
-- Go to the "Console" tab to see the output.
-

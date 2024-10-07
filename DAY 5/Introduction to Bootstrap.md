@@ -205,8 +205,8 @@ Here’s the complete HTML code for your registration form, including all the co
 - **`registration`**: A custom class for the registration form container that defines specific styles such as background color, width, margin, padding, and border-radius.
 ---
 
-## Code Sandbox
-[Code Sandbox](https://2mcw56.csb.app/).
+## Final Code
+[Code Sandbox](https://codesandbox.io/p/sandbox/2mcw56 "@embed") 
 
 ## Conclusion
 
